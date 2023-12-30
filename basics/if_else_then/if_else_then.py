@@ -2,6 +2,6 @@ a = 10
 b = 20
 
 if a > b:
-	print("a est plus grand que b")
+	print("a is bigger than b")
 else:
-	print("a est plus petit que b")
+	print("a is smaller than b")

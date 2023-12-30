@@ -1,13 +1,13 @@
 import random
 
 number = int(random.uniform(1,100))
-userchoice = int(input("Votre réponse: "))
+userchoice = int(input("Your answer: "))
 while number != userchoice:
 	if userchoice < number:
-		print("Trop petit")
+		print("Too small")
 	elif userchoice > number:
-		print("Trop grand")
+		print("Too big")
 	else:
 		break
-	userchoice = int(input("Votre réponse: "))
-print("Bonne réponse")
+	userchoice = int(input("Your answer: "))
+print("Correct")
